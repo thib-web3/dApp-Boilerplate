@@ -9,13 +9,24 @@
 ```shell
 git clone https://github.com/thiblehm12/dApp-Boilerplate.git
 npm install
-npx hardhat test
-npx hardhat run scripts/deploy.ts
 ```
 
-In ./frontend run
+Once installed, let's run Hardhat's testing network:
+```shell
+npx hardhat node
+```
+
+Then, deploy your contract :
 
 ```shell
-  - npm run dev
-  - npm run build
+npx hardhat run scripts/deploy.js --network localhost
 ```
+Finally, we can start the front-end :
+
+```shell
+  cd frontend
+  npm install
+  npm run dev
+  npm run build //for production
+```
+
