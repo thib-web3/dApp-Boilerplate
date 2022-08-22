@@ -1,13 +1,20 @@
-# Sample Hardhat Project
+# Sample dApp BoilerPlate Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
+🛠️ STACK 🛠️
+  - NextJs
+  - Hardhat
+  
+ 🚀 GET STARTED 🚀
 
 ```shell
-npx hardhat help
+git clone https://github.com/thiblehm12/nextjs-dapp.git
 npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
 npx hardhat run scripts/deploy.ts
+```
+
+In the ./frontend
+
+```shell
+  - npm run dev
+  
 ```
