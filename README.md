@@ -12,7 +12,7 @@ npx hardhat test
 npx hardhat run scripts/deploy.ts
 ```
 
-In the ./frontend
+In ./frontend
 
 ```shell
   - npm run dev
