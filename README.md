@@ -21,7 +21,7 @@ Then, deploy your contract :
 ```shell
 npx hardhat run scripts/deploy.js --network localhost
 ```
-Finally, we can start the front-end :
+Finally, start the front-end :
 
 ```shell
   cd frontend
