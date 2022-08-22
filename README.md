@@ -8,6 +8,7 @@
 
 ```shell
 git clone https://github.com/thiblehm12/dApp-Boilerplate.git
+npm install
 npx hardhat test
 npx hardhat run scripts/deploy.ts
 ```
