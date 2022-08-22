@@ -19,7 +19,7 @@ npx hardhat node
 Then, deploy your contract :
 
 ```shell
-npx hardhat run scripts/deploy.js --network localhost
+npx hardhat run scripts/deploy.ts --network localhost
 ```
 Finally, start the front-end :
 
