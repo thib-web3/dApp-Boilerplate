@@ -8,7 +8,6 @@
 
 ```shell
 git clone https://github.com/thiblehm12/dApp-Boilerplate.git
-npm install
 ```
 
 Once installed, let's run Hardhat's testing network:
